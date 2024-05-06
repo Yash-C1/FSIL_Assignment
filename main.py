@@ -99,7 +99,7 @@ def get_section_7_content(soup):
             item_7_text = item_7_text.strip() 
             # Replace new lines with spaces
             item_7_text = item_7_text.replace('\n', ' ')
-            # Remove carriage returns
+            # Remove returns
             item_7_text = item_7_text.replace('\r', '')
             # Replace multiple spaces with single space 
             item_7_text = item_7_text.replace(' ', ' ')
