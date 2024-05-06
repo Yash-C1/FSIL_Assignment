@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        form {
+            margin: 0 auto;
+            width: 300px; /* Adjust as needed */
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="/" method="POST">
+        <label for="user_input">Enter the Ticker:</label><br>
+        <input type="text" id="user_input" name="user_input"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
