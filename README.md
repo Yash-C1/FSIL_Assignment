@@ -1,15 +1,17 @@
-Project Overview
+## Project Overview
 
-This project utilizes Python programming language along with Flask framework to create a web application for downloading financial data, cleaning it, and generating insights. 
-The application has been tested with "TSLA", "AAPL", and "AMZN" tickers.
+* This project utilizes Python programming language along with Flask framework to create a web application for downloading financial data, cleaning it, and generating insights. 
+* The application has been tested with "TSLA", "AAPL", and "AMZN" tickers.
 
-Downloading data-
-The sec-edgar-downloader library is used to fetch the SEC 10-K filings of the respective companies.
+    
+## Downloading data-  
+* The sec-edgar-downloader library is used to fetch the SEC 10-K filings of the respective companies.
 
-Generating insights-
-Insights are generated from Item 7 and Item 7A sections of the SEC 10-K filings. The HuggingFaceH4/zephyr-7b-beta inference API is utilized for this purpose.
+## Generating insights-  
+* Insights are generated from Item 7 and Item 7A sections of the SEC 10-K filings.
+* The HuggingFaceH4/zephyr-7b-beta inference API is utilized for this purpose.
 
-Questions asked-
+## Questions asked-  
 1. Based on the MD&A section of the ITEM 7, what are the main factors driving the companies revenue?
 2. Based on the MD&A, how does the company perceive its competitive position within the industry?
 3. In the MD&A of the 10-K filing, what market trends or industry factors does the company discuss as impacting its performance?
@@ -17,7 +19,7 @@ Questions asked-
 5. According to the MD&A in ITEM 7, what are the major cost components affecting the company's profitability?
 6. According to the MD&A in ITEM 7, derive some insights about the companys growth?
 
-Why users care about these insights?-
+## Why users care about these insights?-  
 1. Main factors driving the company's revenue: Users would care about this insight because it provides valuable information on what aspects of the company's operations contribute most significantly to its top line.
    Understanding the revenue drivers helps investors and stakeholders gauge the company's growth prospects, identify potential risks or opportunities, and make informed decisions regarding investment or partnership.
 2. Perception of competitive position within the industry: Users are interested in this insight as it offers crucial context on how the company views its position relative to competitors.
@@ -32,9 +34,9 @@ Why users care about these insights?-
    expansion into new markets, product innovation, or strategic partnerships, helps users assess the company's competitive position, scalability, and overall business outlook. It informs investment decisions and provides context
    for evaluating the company's long-term prospects.
 
-Limitations and future scope-
+## Limitations and future scope-  
 1. The project focuses on generating insights from Item 7 and Item 7A of the SEC 10-K filing, but can be expanded to other sections such as Risk Factors, Financial Statements, etc.
 2. Future enhancements can include deeper analysis and more comprehensive insights generation.
 
-
+## Demo-  
 The demo of the web app can be seen here.
