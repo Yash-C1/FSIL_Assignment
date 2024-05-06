@@ -37,6 +37,7 @@
 ## Limitations and future scope-  
 1. The project focuses on generating insights from Item 7 and Item 7A of the SEC 10-K filing, but can be expanded to other sections such as Risk Factors, Financial Statements, etc.
 2. Future enhancements can include deeper analysis and more comprehensive insights generation.
+3. Some insights generated are not very accurate. The accuracy of the insights can be further improved.
 
 ## Demo-  
 The demo of the web app can be seen [here](https://drive.google.com/file/d/1SKPTSU4iYnFExyuyU4vHkBH0AFE-9jF2/view?usp=sharing).
